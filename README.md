@@ -51,3 +51,19 @@ Rust on the other hand is compiled. Rust focuses on memory safety, speed and par
 - Not as developed eco-system around Data Science - Python has a very well developed adata science ecosystem which is not quite yet to that level in Rust. 
 - Learning curve - Rust requires you to understand a lot more of what goes on at a lower level and be aware of how variables are passed, variable references etc. This can add a significant learning curve compared to say Python.
 
+#### Flow
+We will go through the process of getting started with Rust from scratch. Feel free to skip parts you find trivial or already have a grasp on.
+We will re-implement a simple ETL process in Rust and compare the code in Python vs Rust and some Rust concepts as we go.
+
+### Installation
+The install instructions are an taken from [The Rust Book](https://doc.rust-lang.org/book/ch01-01-installation.html)
+#### Installation on MacOS or a \*nix based system
+```$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh```
+on MacOS you will also need to install the C compiler by running
+```xcode-select --install```
+#### Installation on Windows
+Please follow the instructions [here](https://www.rust-lang.org/tools/install)
+
+### Hello World
+
+
