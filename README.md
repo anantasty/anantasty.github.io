@@ -1,4 +1,4 @@
-*TOC
+* TOC
 {:toc}
 ## Rust for Python Developers
 I come from a low level (C/C++) background but wrote Python/Java/Scala for several years working in Data Engineering/ Machine Learning / Data Science/ Data Architecture roles.
