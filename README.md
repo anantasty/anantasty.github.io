@@ -1,3 +1,5 @@
+layout: default
+comments: true
 * TOC
 {:toc}
 ## Rust for Python Developers
@@ -65,5 +67,6 @@ on MacOS you will also need to install the C compiler by running
 Please follow the instructions [here](https://www.rust-lang.org/tools/install)
 
 ### Hello World
+
 
 
