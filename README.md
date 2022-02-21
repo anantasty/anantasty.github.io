@@ -23,7 +23,7 @@ This section shares some reference material that will be useful along the way
 So first we will start with a major difference between Python and Rust. Python is interpreted whereas Rust is compiled.
 #### Interpreted Vs Compiled
 
-##### Python
+#### Python
 Python is interpreted. The python interpreter converts the python code to machine code at run time (Although you can compile python to .pyo or .pyc files).
 Python is focused on ease of use. It was targeted at an audience that were not professional programmers but needed to write code for thier trade - Scientists, mathameticians, Statisticians etc. It really serves that purpose well.
 
@@ -36,7 +36,7 @@ Python is focused on ease of use. It was targeted at an audience that were not p
 - The GIL - Pythons interpreter has limitations to run on a single process due to how the interpreter works which does not allow us to always leverage the full capabilities of the processor. 
 - Garbage collection - Python does automatic garbage collection like several modern languges. Garbage collection adds some memory and CPU overhead. More on this later.
 - Lack of early bug detection - Since it is interpreted a lot of issues do not show up till the code is ran. This could lead to several edge cases not being detected till a later stage, import of unused libraries etc. This can be aleviated to a large extent by propper testing.
-##### Rust
+#### Rust
 Rust on the other hand is compiled. Rust focuses on memory safety, speed and parallelism. Although a little more complex and tedious to write than Python it has it's own niche.
 ###### Advantages
 - Static Typing - developers can have debates over the advantages os static vs dynamic typing but both have their place. In Rust the variables types are determined at compile time and there is no `null` type like there is in languages like Java/ Javascript leading to the dreaded null reference errors. 
