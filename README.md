@@ -43,7 +43,7 @@ Rust on the other hand is compiled. Rust focuses on memory safety, speed and par
 - Memory management - Rust does not yet have a defined memory model. Memory management is largely addressed at compile time. This is a massive oversimplification but when variables go out of scope their memory is freed. This is what affords the much boasted memory safety.
 - Performance - With all the features we have been talking of and being low-level and compiled Rust has small binaries (Minimal run time- More on this later). Code is memory efficient and can provice bare meta performance.
 
-##### Disadvanteges
+##### Disadvantages
 - Harder to write - It by no means is as easy to write as Python. You really have to think about what is happening in the machine and not jsut focus on how you want to manipulate your data. Rust is not as suited for quick and dirty prototyping or data exploration as Python is. It is more focused on performance, stability and backwards compatibility.
 - The static typing and strong memory management, borrow checker can be quite cumbersome. It leads to several compile time errors that can be hard to understand and debug coming from higher level languages. Although this is all in the interest of higher performance and better memory utilization.
 - Not as developed eco-system around Data Science - Python has a very well developed adata science ecosystem which is not quite yet to that level in Rust. 
