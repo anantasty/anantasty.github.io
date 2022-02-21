@@ -1,4 +1,4 @@
-layout: default
+
 * TOC
 {:toc}
 ## Rust for Python Developers
