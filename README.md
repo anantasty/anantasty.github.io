@@ -1,5 +1,4 @@
 layout: default
-comments: true
 * TOC
 {:toc}
 ## Rust for Python Developers
