@@ -1,3 +1,5 @@
+*TOC
+{:toc}
 ## Rust for Python Developers
 I come from a low level (C/C++) background but wrote Python/Java/Scala for several years working in Data Engineering/ Machine Learning / Data Science/ Data Architecture roles.
 Python has been my primary language becase it is flexible, easy to write, learn and read. The ecosystem around Data Science, ETL and general purpose tasks - Api's, Scraping, database interaction is well developed.
