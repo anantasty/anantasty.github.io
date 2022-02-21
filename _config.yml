@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Rust for Python Developers
 description: Series of posts to help Python developers transition to writing Rust.
+markdown: kramdown
